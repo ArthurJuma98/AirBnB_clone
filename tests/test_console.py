@@ -1,13 +1,28 @@
 #!/usr/bin/python3
 """A unit test module for the console (command interpreter).
+
+Unittest classes
+    TestHBNBCommand:
+        test_console_v_0_0_1
+        test_console_v_0_1
+        test_user
+        test_class_all
+        test_class_count
+        test_class_show
+        test_class_destroy
+        test_class_update_0
+        test_class_update_1
 """
+
 import json
+import sys
 import os
 import unittest
 from io import StringIO
 from unittest.mock import patch
 
 from console import HBNBCommand
+from models.engine.file_storage import FileStorage
 from models import storage
 from models.base_model import BaseModel
 from tests import clear_stream
@@ -279,3 +294,6 @@ class TestHBNBCommand(unittest.TestCase):
                 "'name': 'Basketball court'",
                 cout.getvalue()
             )
+if __name__ == "__main__":
+    unittest.main()
+
