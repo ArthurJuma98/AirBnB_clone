@@ -8,3 +8,4 @@ class State(BaseModel):
     """Represents a state data set.
     """
     name = ''
+

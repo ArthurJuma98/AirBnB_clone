@@ -8,3 +8,4 @@ storage = FileStorage()
 """A unique FileStorage instance for all models.
 """
 storage.reload()
+
