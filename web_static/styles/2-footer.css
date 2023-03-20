@@ -1,12 +1,16 @@
+/*
+ * === Footer style ===
+ */
+
+/* Footer style */
 footer {
-    position: fixed;
-    display: flex;
-    width: 100%;
-    height: 60px;
-    grid-area: footer;
-    align-self: flex-end;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    background: #00FF00;
+            text-align: center;
+            background-color: #0f0;
+            height: 60px;
+            width: 100%;
+            bottom: 0;
+            justify-content: center;
+            position: absolute;
+            align-items: center;
+            display: flex;
 }
