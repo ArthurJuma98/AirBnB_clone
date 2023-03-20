@@ -8,3 +8,4 @@ class Amenity(BaseModel):
     """Represents an amenity data set.
     """
     name = ''
+
